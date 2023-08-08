@@ -76,4 +76,14 @@
 # while n>= 0:
 #     print(n)
 #     n-=(1)
+
+Start = int(input("Enter a number: "))
+Stop = int(input("Enter a number: "))
+for i in range(Start, Stop):
+    if i % 2 == 0:
+        print(i, "is an even number")
+    else:
+        print(i, "is an odd number")
+
+
     
